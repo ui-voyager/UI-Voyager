@@ -1,0 +1,78 @@
+# ==========================================
+data/*
+
+# Eval Directory .gitignore
+# ==========================================
+
+# ==========================================
+# Benchmark Test Data
+# ==========================================
+# Ignore all test_data directories under benchmark subdirectories
+eval/benchmark/*/test_data/
+
+# Specific benchmark test data directories
+eval/benchmark/agentnetbench/test_data/
+eval/benchmark/blinkbench/test_data/
+eval/benchmark/hrbench/test_data/
+eval/benchmark/screenspotpro/test_data/
+eval/benchmark/screenspotv2/test_data/
+eval/benchmark/tirbench/test_data/
+eval/benchmark/vstarbench/test_data/
+
+# ==========================================
+# Test Results
+# ==========================================
+# Ignore all test results
+eval/results/
+
+# Specific result directories (if results/ pattern doesn't work)
+eval/results/agentnetbench/
+eval/results/vstar/
+eval/results/hrbench/
+eval/results/blink/
+eval/results/sspro/
+
+# ==========================================
+# Python Cache and Compiled Files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ==========================================
+# IDE and Editor Files
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ==========================================
+# Temporary and Log Files
+# ==========================================
+*.log
+*.tmp
+*.temp
+.cache/
+
+# Benchmark log directory
+logs/
+
+# Monitor
+wandb/
+# ==========================================
+# Output Directories
+# ==========================================
+# AgentNetBench output directory
+eval/benchmark/agentnetbench/output/
+
+# ==========================================
+# Virtual Environment
+# ==========================================
+venv/
+ENV/
+.venv/
