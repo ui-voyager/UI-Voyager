@@ -19,6 +19,16 @@ performance.
   <em>Overview of UI-Voyager performance on AndroidWorld</em>
 </p>
 
+UI-Voyager consists of two iterative stages: 
+- 🔷 **Rejection Fine-Tuning (RFT)**, where a base policy generates multiple trajectories that are filtered by a rule-based verifier to collect high-quality samples for supervised fine-tuning. 
+- 🔶 **Group Relative Self-Distillation (GRSD)**, which identifies fork points between successful and failed trajectory groups using SSIM matching and corrects erroneous actions to further refine the policy $\pi_m$ through mixed-data training.
+
+<p align="center">
+  <img src="./assets/img/main_framework_v3.png" alt="main_framework" width="700">
+  <br>
+  <em>Main Framework of UI-Voyager</em>
+</p>
+
 
 ## News
 * **[2026.03.26]**  **Paper**: Our paper is now available on [arXiv](https://arxiv.org/pdf/2603.24533).
@@ -78,7 +88,7 @@ The default YAML (`androidworld/eval/configs/UI-Voyager.yaml`) uses:
 ### 4. Start evaluation (parallel emulators)
 
 ```bash
-NUM_WORKERS=4 CONFIG_NAME=UI-Voyager ./run_android_world.sh
+NUM_WORKERS=4 CONFIG_NAME=UI-Voyager MODEL_NAME=UI-Voyager ./run_android_world.sh
 ```
 
 ### 5. Monitor and stop
@@ -110,14 +120,15 @@ Key sections:
 - `agent.*`: prompt name, action loop params, history length, SFT output dir
 - `eval.*`: which AndroidWorld task suite to run and the output path
 
-Parallel evaluation entrypoint:
-
-`python test_android_world.py --config <yaml> --num_workers <N> ...`
+Start parallel evaluation:
+```bash
+NUM_WORKERS=4 CONFIG_NAME=UI-Voyager MODEL_NAME=UI-Voyager ./run_android_world.sh
+```
 
 
 ## Logs and test results
 
-### Directory layout (`run_android_world.sh`)
+Directory layout (`run_android_world.sh`)
 
 | Path | Contents |
 |------|----------|
