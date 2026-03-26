@@ -21,8 +21,8 @@ performance.
 
 
 ## News
-* **[2025.03.26]**  **Paper**: Our paper is now available on [arXiv](https://arxiv.org/pdf/2603.24533).
-* **[2025.03.26]**  **Model Release**: [UI-Voyager](https://huggingface.co/MarsXL/UI-Voyager) is released on HuggingFace.
+* **[2026.03.26]**  **Paper**: Our paper is now available on [arXiv](https://arxiv.org/pdf/2603.24533).
+* **[2026.03.26]**  **Model Release**: [UI-Voyager](https://huggingface.co/MarsXL/UI-Voyager) is released on HuggingFace.
 
 ## Table of Contents
 
