@@ -133,11 +133,14 @@ Parallel evaluation entrypoint:
 If you find this work useful, please consider giving a star 🌟 and citation:
 
 ```bibtex
-@article{UI-Voyager,
-  title={UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience},
-  author={...},
-  journal={...},
-  year={2026}
+@misc{lin2026uivoyager,
+      title={UI-Voyager: A Self-Evolving GUI Agent Learning via Failed Experience}, 
+      author={Zichuan Lin and Feiyu Liu and Yijun Yang and Jiafei Lyu and Yiming Gao and Yicheng Liu and Zhicong Lu and Yangbin Yu and Mingyu Yang and Junyou Li and Deheng Ye and Jie Jiang},
+      year={2026},
+      eprint={2603.24533},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2603.24533}, 
 }
 ```
 
