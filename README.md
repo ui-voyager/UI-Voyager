@@ -4,7 +4,7 @@
 
 
 <p align="center">
-  <a href="https://arxiv.org/"><img src="https://img.shields.io/badge/📄%20arXiv-UI--Voyager-red" alt="arXiv" /></a>
+  <a href="https://arxiv.org/pdf/2603.24533"><img src="https://img.shields.io/badge/📄%20arXiv-UI--Voyager-red" alt="arXiv" /></a>
   <a href="https://huggingface.co/MarsXL/UI-Voyager"><img src="https://img.shields.io/badge/🤗%20Hugging%20Face-UI--Voyager-blue" alt="Hugging Face Model" /></a>
 </p>
 
@@ -14,15 +14,15 @@ We present **UI-Voyager**, a novel two-stage self-evolving mobile GUI agent. Our
 performance.
 
 <p align="center">
-  <img src="./assets/img/overview.png" alt="Overview" width="800">
+  <img src="./assets/img/overview_uivoyager.png" alt="Overview" width="700">
   <br>
   <em>Overview of UI-Voyager performance on AndroidWorld</em>
 </p>
 
 
 ## News
-* **[2025.03.25]**  **Paper**: Our paper is now available on [arXiv](https://arxiv.org/).
-* **[2025.03.25]**  **Model Release**: [UI-Voyager](https://huggingface.co/MarsXL/UI-Voyager) is released on HuggingFace.
+* **[2025.03.26]**  **Paper**: Our paper is now available on [arXiv](https://arxiv.org/pdf/2603.24533).
+* **[2025.03.26]**  **Model Release**: [UI-Voyager](https://huggingface.co/MarsXL/UI-Voyager) is released on HuggingFace.
 
 ## Table of Contents
 
