@@ -31,6 +31,7 @@ UI-Voyager consists of two iterative stages:
 
 
 ## News
+* **[2026.04.03]**  We have released the code for **fork point detection**, which is used to generate training data for GRSD. See more details [here](cores/README.md).
 * **[2026.03.26]**  **Paper**: Our paper is now available on [arXiv](https://arxiv.org/pdf/2603.24533).
 * **[2026.03.26]**  **Model Release**: [UI-Voyager](https://huggingface.co/MarsXL/UI-Voyager) is released on HuggingFace.
 
@@ -106,6 +107,10 @@ If you call `./stop_android_world.sh` with no arguments, it may not resolve the 
 ```bash
 kill "$(cat eval_results/<MODEL_NAME>/logs/<timestamp>/eval.pid)"
 ```
+
+
+## Data Collection
+
 
 ## Evaluation
 
